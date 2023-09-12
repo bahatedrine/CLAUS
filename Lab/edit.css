@@ -1,0 +1,151 @@
+/* staff.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin:10px 10px;
+    padding: 20px;
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+.top-nav {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    justify-content: space-between;
+    align-items: center;   
+}
+.top-nav ul.menu li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.logo {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 15px;
+}
+
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.menu li a:hover {
+    background-color: #555;
+}
+
+.heading {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.staffForm {
+    margin-top: 20px;
+}
+
+.staffForm label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.staffForm input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.staffForm input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.staffForm input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.staffForm input[type="submit"]:hover {
+    background-color: #555;
+}
+
+#editStaff {
+    margin-top: 40px;
+}
+
+.icon {
+    display: inline-block;
+    vertical-align: middle;
+    width: 30px; /* Adjust the size as needed */
+    height: 30px; /* Adjust the size as needed */
+    margin-right: 20px; /* Add spacing between the icon and the text */
+  }
+
+.sidebar a {
+    font-family: "Times New Roman", Times, serif;
+    display: block;
+    padding: 10px 10px;
+    color: #333;
+    text-decoration: none;
+    background: color #2f4f4f;;
+    color:green;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sidebar a:hover {
+    background-color: #ddd;
+  }
+
+  .main {
+    flex: 1;
+    display: flex;
+    background-color: #fff;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+  }
+
+  .dash{
+    display: inline-block;
+    vertical-align: middle;
+    width: 50px; 
+    height: 50px; 
+    margin-right: 20px;
+    margin-left: 20px;
+  }
